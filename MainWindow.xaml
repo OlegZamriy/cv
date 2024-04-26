@@ -1,0 +1,58 @@
+﻿<Window 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Моє резюме"
+    Width="800"
+    Height="500"
+    Background="#db3e32">
+    <Grid Margin="20">
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="#E6E6E6" Offset="0.0" />
+                <GradientStop Color="#DDDDDD" Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <StackPanel>
+            <TextBlock Text="Олег" FontSize="24" FontWeight="Bold" Foreground="#333" />
+            <TextBlock Text="Контактна інформація:" />
+            <TextBlock Text="Email: [видалено електронну адресу]" />
+            <TextBlock Text="Номер телефону: +380-000-000-0000" />
+            <TextBlock Text="Портфоліо: [видалено недійсну URL-адресу]" />
+
+            <TextBlock Text="Короткий опис:" Margin="10" />
+            <TextBlock Text="Ентузіастичний розробник-початківець C# з досвідом роботи в [вкажіть сферу] прагне розпочати кар'єру в динамічній команді. Володію знаннями основ C#, OOP та досвідом роботи з [вкажіть інструменти/бібліотеки]. Швидко навчаюся, прагну до саморозвитку та маю бажання вносити свій вклад у успішні проекти." />
+
+            <TextBlock Text="Навички:" Margin="10" />
+            <ListBox BorderThickness="1" BorderBrush="#CCC">
+                <ListBoxItem>C#</ListBoxItem>
+                <ListBoxItem>OOP</ListBoxItem>
+                <ListBoxItem>[Вкажіть інструменти/бібліотеки]</ListBoxItem>
+                <ListBoxItem>[Вкажіть інші релевантні навички]</ListBoxItem>
+            </ListBox>
+
+            <TextBlock Text="Досвід:" Margin="10" />
+            <ListBox BorderThickness="1" BorderBrush="#CCC">
+                <ListBoxItem>[Вкажіть релевантний досвід роботи/навчання]</ListBoxItem>
+                <ListBoxItem>[Вкажіть особисті проекти]</ListBoxItem>
+            </ListBox>
+
+            <TextBlock Text="Особисті якості:" Margin="10" />
+            <ListBox BorderThickness="1" BorderBrush="#CCC">
+                <ListBoxItem>Швидке навчання</ListBoxItem>
+                <ListBoxItem>Самомотивація</ListBoxItem>
+                <ListBoxItem>Прагнення до саморозвитку</ListBoxItem>
+                <ListBoxItem>Командна робота</ListBoxItem>
+                <ListBoxItem>Відповідальність</ListBoxItem>
+            </ListBox>
+
+            <TextBlock Text="Цілі:" Margin="10" />
+            <ListBox BorderThickness="1" BorderBrush="#CCC">
+                <ListBoxItem>Отримати початкову позицію розробника C# в динамічній команді.</ListBoxItem>
+                <ListBoxItem>Працювати над цікавими та складними проектами.</ListBoxItem>
+                <ListBoxItem>Вчитися та розвиватися як розробник.</ListBoxItem>
+                <ListBoxItem>Стати цінним активом для команди.</ListBoxItem>
+            </ListBox>
+        </StackPanel>
+    </Grid>
+</Window>
